@@ -17,6 +17,8 @@ public class Curso {
     private Long id;
 
     private String nome;
+    private String descricao;
+    private interger cargaHoraria;
 
     @OneToMany(mappedBy = "curso")
 @JsonManagedReference
